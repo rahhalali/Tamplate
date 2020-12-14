@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    font-family: monospace;
+}
+/*nav bar */
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: #360836;
+    
+
+}
+.navbar ul{
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+}
+.navbar ul li{
+    display:inline-block; 
+    margin-left: 30px;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#ff0048;
+    font-size: 25px;
+}
+.navbar ul li a.active{
+    color: white;
+}
+
+/*web fork */
+
+.web{
+    width: 100%;
+    height: 600px;
+    background-image: url("images/cover.png");
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+}
+.web .fork {
+    margin-bottom: 80px;
+}
+.web .fork h2{
+    font-size: 50px;
+    color:white;
+    text-transform: uppercase;
+}
+.web .fork p{
+    letter-spacing: 10px;
+    font-size:25px;
+    text-transform: capitalize;
+    color: white;
+    padding-top: 10px;
+}
+.web .dream p{
+    color: white;
+    font-size: 25px;
+}
+.web .work{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    left:43.8%;
+    background: #ff0048;
+    padding: 20px;
+    width: 200px;
+    font-size:20px;
+}
+.web .work:after {
+    content: "";
+    border:40px solid transparent;
+    border-top: 40px solid #ff0048;
+    position: relative;
+    top: 83px;
+    right:85px
+}
+
+/* Image */
+.Img{
+    width: 100%;
+}
+.Img img{
+    width:25%;
+    float:left;
+    opacity:1;
+}
+.Img img:hover{
+    opacity: 0.7;
+}
+.foot{
+    height: 50px;
+    clear: both;
+}
+
+.foot p{
+    background-color:#ff0048 ;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+.Img .foot::after {
+    clear: both;
+    content: "";
+    border:40px solid transparent;
+    border-top: 40px solid #ff0048;
+    position: relative;
+    top:38px;
+    left:48%;
+}
+/*
+Meet
+*/
+
+.meet{
+    text-align: center;
+    height: auto;
+    position: relative;
+    background-color: gray;
+    
+}
+.meet h2{
+    text-align: center;
+    margin: 0;
+    padding-top: 10%;
+    color: #ff0048;
+    font-size:40px; 
+    margin-bottom: 10%;
+}
+.meet .meet_img h3{
+    color: #ff0048;
+    font-size: 25px;
+    letter-spacing: 5px;
+    padding-top:5px;
+}
+.meet .meet_img{
+    display: inline-block;
+    margin-top: 60px;
+}
+.meet button{
+    width: 120px;
+    background-color: black;
+    color: white;
+     border:0;
+     height: 50px;
+     cursor: pointer;
+     margin-bottom: 10px;
+}
+
+/* Last Thing */
+
+.end{
+    color: white;
+    text-align: center;
+    width: 100%;
+    background-image: url(images/Cover_2.jpg);
+    height: auto;
+}
+.end .div1 h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.end .div1{
+    margin-top: 35px;
+    padding-top: 8%;
+    width: 35%;
+    display: inline-block;
+}
+.end button{
+    width: 100px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    margin-top:10%;
+    cursor: pointer;
+}
+
+.end .div1 p{
+    font-weight: bold;
+}
+.end .dot{
+    margin-top: 5%;
+}
+.end .dot span{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50px;
+    
+}
+.end .dot span:hover{
+    background-color:#ff0048 ;
+}
+/*footer */
+.footer{
+height: 50px;
+width: 100%;
+text-align: center;
+line-height: 50px;
+background-color: gray;
+font-size: 20px;
+}
+/*Contact Body */
+
+.contact{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 600px;
+    background-image: url(images/coverPage2.PNG);
+    background-size: cover;
+}
+.contact .inner{
+    position: relative;
+   
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+.contact .inner h2{
+    font-size: 40px;
+    font-style: italic;
+    padding-top: 50px;
+}
+.contact .inner h4{
+    font-size: 15px;
+    padding-top: 15px;
+}
+.contact .inner h3{
+    font-size: 24px;
+    color: #ff0048;
+    text-transform: capitalize;
+    margin-top: 20%;
+
+}
+
+.contact .inner h2,h3,h4,form{
+    text-align: center;
+}
+.contact .inner form input,textarea{
+    background-color:rgba(255, 2, 120, 0.4);
+    font-weight: bold;
+    opacity: 0.7;
+    color: black;
+    border: 0;
+    margin: 3px;
+    width: 100%;
+    padding-top: 5px;
+}
+.contact .inner form input{
+    height:20px ;
+    
+}
+.contact .inner form button{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid black;
+}
+::placeholder{
+    color:white;
+}
+.last{
+    width: 100%;
+}
+
+.last .inner2{
+    width: 600px;
+    margin: auto;
+}
+.last h2,.image1{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(221, 35, 150);
+    font-size: 30px;
+}
+.last .inner2 p{
+    margin-top:10px;
+font-size: 15px;
+word-spacing: 10px;
+
+}
+.last .inner2 .first{
+    margin-top:20%;
+}
+.last .inner2 .image1 {
+    margin-top: 40px;
+}
+.last .para{
+    text-align: center;
+    color: rgb(221, 35, 150);
+    font-size: 30px;
+
+}
+.container{
+    padding-top: 7%;
+    text-align: center;
+    background-image: url(images/coverPage2.PNG);
+    background-size: cover;
+    height: 900px;
+}
+.middle{
+    width: 900px;
+    margin: 0 auto;
+    height: 700px;
+    background-color: white;
+    padding-top: 25px;
+
+}
+.container h2{
+    font-size: 40px;
+}
+.middle .middle1
+{
+    width: 400px;
+    height: 400px;
+    float: left;
+    background-color: gray;
+    margin-left: 45px;
+}
+.middle .middle1 img{
+    width: 400px;
+    height: 400px;
+}
+
+.middle .middle2{
+    width: 400px;
+    height: 400px;
+    float: left;
+    background-color: gray;
+    position: relative;
+    
+}
+.book .container .middle .middle2 p{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+.book .container .middle .middle2 button{
+    position: absolute;
+    left: 40%;
+    top: 55%;
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+.book .container .middle .middle2 p span{
+font-size: 15px;
+font-weight: bold;
+}
+
+
+
